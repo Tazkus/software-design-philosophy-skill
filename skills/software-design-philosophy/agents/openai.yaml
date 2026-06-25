@@ -1,0 +1,7 @@
+interface:
+  display_name: "Software Design Philosophy"
+  short_description: "Reduce software complexity with deep modules"
+  brand_color: "#2F6F5E"
+  default_prompt: "Review this design for change amplification, cognitive load, and hidden dependencies. Produce two alternatives before recommending one."
+policy:
+  allow_implicit_invocation: true
