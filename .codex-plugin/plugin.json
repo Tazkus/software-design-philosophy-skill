@@ -1,0 +1,38 @@
+{
+  "name": "software-design-philosophy",
+  "version": "0.1.0",
+  "description": "A Codex skill for designing, reviewing, and refactoring software to reduce system-wide complexity.",
+  "author": {
+    "name": "Tazkus",
+    "url": "https://github.com/Tazkus"
+  },
+  "homepage": "https://github.com/Tazkus/software-design-philosophy-skill",
+  "repository": "https://github.com/Tazkus/software-design-philosophy-skill",
+  "license": "MIT",
+  "keywords": [
+    "software-design",
+    "architecture",
+    "refactoring",
+    "code-review",
+    "complexity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Software Design Philosophy",
+    "shortDescription": "Reduce complexity with deep modules and information hiding",
+    "longDescription": "Review, compare, and implement software designs using change locality, low cognitive load, deep modules, information hiding, deliberate error semantics, and design-twice analysis.",
+    "developerName": "Tazkus",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Tazkus/software-design-philosophy-skill",
+    "defaultPrompt": [
+      "Review this module for complexity and propose two better designs.",
+      "Refactor this feature using deep modules and information hiding.",
+      "Compare two API designs and recommend the one with lower long-term change cost."
+    ],
+    "brandColor": "#2F6F5E"
+  }
+}
